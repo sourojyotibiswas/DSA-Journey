@@ -1,4 +1,6 @@
 *.exe
 *.png
 *.jpg
+*.pdf
+*.xlsx
 ignore/

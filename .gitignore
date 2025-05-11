@@ -4,3 +4,5 @@
 *.pdf
 *.xlsx
 ignore/
+fileCreate.cpp
+CP-Book/

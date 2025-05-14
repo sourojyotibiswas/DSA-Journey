@@ -1,8 +1,2 @@
 *.exe
-*.png
-*.jpg
-*.pdf
-*.xlsx
 ignore/
-fileCreate.cpp
-CP-Book/

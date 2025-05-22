@@ -11,6 +11,24 @@ public:
         return root;
     }
 };
+// Optimising the space complexity by using a while loop
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        while (root) {
+            if (p->val > root->val && q->val > root->val) {
+                root = root->right;
+            } 
+            else if (p->val < root->val && q->val < root->val) {
+                root = root->left;
+            } 
+            else {
+                return root; // Found the split point
+            }
+        }
+        return nullptr;
+    }
+};
 
 // Generic Approach works for any Binary tree LCA find
 class Solution {

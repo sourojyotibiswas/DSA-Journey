@@ -1,4 +1,4 @@
-// Kth SMALLEST ELEMENT IN BST
+// Kth SMALLEST/LARGEST ELEMENT IN BST
 class Solution {
 public:
     void solve(TreeNode* root, int &cnt, int &ans, int k){

@@ -1,2 +1,4 @@
 *.exe
 ignore/
+Hackathons-CC/
+*.cph/
